@@ -1,5 +1,4 @@
 import { Fragment, useEffect } from "react";
-import About from "../Images/fakharabbas.jpeg";
 import {
   FaDownload
 } from "react-icons/fa";
@@ -54,7 +53,7 @@ const AboutMe = () => {
                 <div className="absolute inset-0 rounded-full bg-[#38bdf8]/20 opacity-0 group-hover:opacity-100 transition duration-700 blur-3xl"></div>
 
                 <img
-                  src={About}
+                  src="https://media.istockphoto.com/id/2190079061/photo/handsome-teen-boy-with-curly-hairstyle-wearing-green-t-shirt-posing-isolated-on-blue.webp?a=1&b=1&s=612x612&w=0&k=20&c=rQ-dQki45OcFh3W8jzPBNDkcC_6n15Id53hpp2BrlEw="
                   alt="Kazim Jaffery"
                   className="w-full h-full object-cover rounded-full p-3 sm:p-4 border-4 border-[#38bdf8] z-10 relative shadow-xl transition-all duration-700 group-hover:scale-105 group-hover:rotate-3"
                 />

@@ -1,7 +1,6 @@
 import { Fragment, useEffect } from "react";
 import { FaPaperPlane, FaRocket, FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
-import Hero from "../Images/fakharabbas.jpeg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -164,7 +163,7 @@ const HeroSection = () => {
 
               {/* Profile Image */}
               <img
-                src={Hero}
+                src="https://media.istockphoto.com/id/2190079061/photo/handsome-teen-boy-with-curly-hairstyle-wearing-green-t-shirt-posing-isolated-on-blue.webp?a=1&b=1&s=612x612&w=0&k=20&c=rQ-dQki45OcFh3W8jzPBNDkcC_6n15Id53hpp2BrlEw="
                 alt="Kazim Jaffery profile"
                 className="w-full h-full object-cover rounded-full border-4 border-[#38bdf8] shadow-2xl relative transition-all duration-700 group-hover:scale-105 group-hover:rotate-3 p-3 sm:p-5"
               />
