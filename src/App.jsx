@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 import Navbar from './components/Navbar';
+import Cleaning from './components/Cleaning';
+import OfferingsGuarantee from './components/OfferingsGuarantee';
+import AuthorityCares from './components/AuthorityCares';
 import HeroSection from './components/HeroSection';
 import AboutMe from './components/AboutMe';
 import MySkills from './components/MySkills';
@@ -57,15 +60,19 @@ function App() {
   }
 
   return (
-    <div className="bg-[#0d0f2b] relative">
+    // bg-[#0d0f2b]
+    <div className="relative">
       <Navbar />
-      <HeroSection />
+      <Cleaning />
+      <OfferingsGuarantee />
+      <AuthorityCares />
+      {/* <HeroSection />
       <AboutMe />
       <MySkills />
       <EducationExperience />
       <MyServices />
       <MyProjects />
-      <MyContact />
+      <MyContact /> */}
       <Footer />
 
       {/* WhatsApp Icon */}
@@ -73,7 +80,7 @@ function App() {
         href="https://wa.me/92123456789"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-5 right-5 bg-green-500 text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform"
+        className="fixed bottom-5 right-5 bg-green-500 text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform z-10"
       >
         <FaWhatsapp size={28} />
       </a>

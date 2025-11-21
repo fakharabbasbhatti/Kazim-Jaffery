@@ -31,7 +31,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="relative overflow-hidden">
+    <footer className="relative overflow-hidden ">
       {/* Floating Background Circles */}
       <div className="absolute -top-16 -left-16 w-72 h-72 bg-[#38bdf8] opacity-10 rounded-full blur-3xl animate-float"></div>
       <div className="absolute -bottom-16 -right-16 w-72 h-72 bg-[#0ea5e9] opacity-10 rounded-full blur-3xl animate-float-delay"></div>
