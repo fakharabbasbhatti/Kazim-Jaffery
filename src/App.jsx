@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Cleaning from './components/Cleaning';
 import OfferingsGuarantee from './components/OfferingsGuarantee';
 import AuthorityCares from './components/AuthorityCares';
+import FreeEstimate from './components/FreeEstimate';
 import HeroSection from './components/HeroSection';
 import AboutMe from './components/AboutMe';
 import MySkills from './components/MySkills';
@@ -63,16 +64,13 @@ function App() {
     // bg-[#0d0f2b]
     <div className="relative">
       <Navbar />
-      <Cleaning />
-      <OfferingsGuarantee />
-      <AuthorityCares />
-      {/* <HeroSection />
+      <HeroSection />
       <AboutMe />
       <MySkills />
       <EducationExperience />
       <MyServices />
       <MyProjects />
-      <MyContact /> */}
+      <MyContact />
       <Footer />
 
       {/* WhatsApp Icon */}
